@@ -1,0 +1,13 @@
+.nav-app{
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bar-cards{
+  
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 840px;
+}

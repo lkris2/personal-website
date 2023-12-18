@@ -1,0 +1,10 @@
+.nav-app{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .my-intro{
+        font-size: x-large;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}

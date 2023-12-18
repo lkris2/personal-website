@@ -1,0 +1,106 @@
+:root{--primary-color: #7872be; /* Default background color */
+  --secondary-color: #2c3e50; /* Default secondary color */
+}
+ 
+ *{
+  background-color: linear-gradient(to right, #ff6b6b, #3b5998);
+
+ }
+ 
+.App{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: black;
+  margin-left: 70%;
+
+  }
+
+ 
+.topContent{
+  margin-bottom: 40px;
+  font-size:200%;
+  text-align: center;
+  font-family: 'Lucida Handwriting';
+  color:#435ccb
+  
+}
+.name-content{
+  margin-bottom: 10px;
+  font-family: 'Lucida Handwriting';
+  font-size:200%;
+  text-align: center;
+  color:#435ccb
+}
+/* Style the entire navigation bar */
+.navbar {
+  margin-bottom: 30px;
+  margin-left: 240px;
+  background-color: #908bf3; /* Background color */
+  border: 10px solid #c23333;
+ 
+  
+
+/* Individual properties */
+border-width: 10px;
+border-bottom: 0.1cm;
+border-block-start-width: 3px;
+border-top: 0cm;
+border-style: solid;
+border-color: #f10c0c;
+ 
+}
+ 
+/* Style the navbar container */
+.navbar-nav {
+  font-family: 'Lucida Sans';
+  margin-left: 4cqb; /* Automatically align to the right */
+  
+}
+ 
+/* Style the navbar links */
+.navbar-nav a {
+  color: #333333; /* Text color */
+  margin-right: 15px; /* Spacing between links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Font weight */
+  justify-content:space-around;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+ 
+/* Change color on hover */
+.navbar-nav a:hover {
+  color: #007bff; /* Hover color */
+}
+ 
+/* Style the active link */
+.navbar-nav a.active {
+  color: #ff004c; /* Active link color */
+}
+ 
+.nav-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f10c0c;
+  .ul{
+    display:flex;
+    margin: 25px;
+    list-style: none;
+  }
+  .item{
+    display: flex;
+    margin: 25px;
+
+    li{
+      margin: 0 1rem;
+
+      a{text-decoration: none;
+      color: #c23333;
+       font-weight: 200;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    }
+
+  }
+  }
